@@ -1,10 +1,5 @@
-const chorus = "Let's dance!";
-let repeat = 0;
-while(repeat < 10) {
-  if(repeat === 5) {
-    console.log("*change key*")
-  }
-  console.log(chorus);
-  repeat++;
+let food = "enjera be shiro"
+for (i = 0; i < 9; i++) {
+  console.log(food);
 }
 console.log("Until the sun comes up!");
