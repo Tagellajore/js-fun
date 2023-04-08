@@ -1,5 +1,9 @@
-let food = "enjera be shiro"
-for (i = 0; i < 9; i++) {
-  console.log(food);
+
+let data = [1,2,3,4];
+let name = "lilisho"
+for (let val of data) {
+  console.log(val);
 }
-console.log("Until the sun comes up!");
+for (let character of name) {
+  console.log(character);
+}
